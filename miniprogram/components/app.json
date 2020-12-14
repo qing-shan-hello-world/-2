@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page4/page4",
+    "pages/x1/x1",
+    "pages/x2/x2",
+    "pages/x3/x3",
+    "pages/x4/x4",
+    "pages/p1/p1",
+    "pages/p2/p2",
+    "pages/y1/y1",
+    "pages/y2/y2",
+    "pages/y3/y3",
+    "pages/y4/y4",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFFFE0",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "color": "#9E9E9E",
+    "selectedColor": "#1CB3D0",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/a.png",
+        "selectedIconPath": "images/a.png",
+        "text": "首 页"
+      },
+      {
+        "pagePath": "pages/page2/page2",
+        "iconPath": "images/b.png",
+        "selectedIconPath": "images/b.png",
+        "text": "动了么"
+      },
+      {
+        "pagePath": "pages/page3/page3",
+        "iconPath": "images/c.png",
+        "selectedIconPath": "images/c.png",
+        "text": "饿了么"
+      },
+      {
+        "pagePath": "pages/page4/page4",
+        "iconPath": "images/d.png",
+        "selectedIconPath": "images/d.png",
+        "text": "玩了么"
+      }
+    ]
+  }
+  
+
+}
