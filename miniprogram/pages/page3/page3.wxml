@@ -1,0 +1,8 @@
+<view class="container">
+    <image class="avatar" src="../../images/4.jpg"></image>
+    <text class="motto">Hello ！</text>
+    <view catchtap="onTapJump" class="journey-container">
+    
+<navigator url="/pages/x1/x1" class="b" ><view><text>开始美食之旅吧</text></view></navigator>
+    </view>
+</view>

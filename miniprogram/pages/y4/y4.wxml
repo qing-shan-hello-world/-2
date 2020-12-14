@@ -1,0 +1,9 @@
+<!--pages/page4/page4.wxml-->
+<text class="b">你是否因为学业压力过大而感到焦虑？
+那么，就现在，放飞自我吧！</text>
+<text class="a">美食不可辜负o(*￣▽￣*)o</text>
+<view>
+<image src="/pages/images1/1.jpg" bindtap="beginToSing" ></image>
+<image src="/pages/images1/2.jpg" bindtap="beginToSing"  ></image>
+<image src="/pages/images1/3.jpg" bindtap="beginToSing" ></image>
+</view>

@@ -1,0 +1,26 @@
+<view class="box">
+  <button class="item" plain>
+    <navigator url="/pages/y1/y1" hover-class="navigator-hover">健康模式</navigator>
+  </button>
+  <button class="item" plain>
+    <navigator url="/pages/y2/y2" hover-class="navigator-hover">增肌模式</navigator>
+  </button>
+  <button class="item" plain>
+    <navigator url="/pages/y3/y3" hover-class="navigator-hover">瘦身模式</navigator>
+  </button>
+  <button class="item" plain>
+    <navigator url="/pages/y4/y4" hover-class="navigator-hover">放纵模式</navigator>
+  </button>
+</view>
+<view>
+    <image class="t1" src="../../images/5.jpg"></image>
+    </view>
+<view class="a">
+  我要变成万人迷！
+</view>
+<view>
+  <image class="t1" src="../../images/6.jpg"></image>
+    </view>
+    <view class="a">
+  燃烧我的卡路里！
+</view>

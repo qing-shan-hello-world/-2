@@ -1,0 +1,29 @@
+
+
+.lunbo{
+  width:100%;
+  height:1150rpx;
+}
+.lunbo image{
+  width:100%;
+  height:1150rpx;
+  }
+  .content1{
+    font-size: 21px;
+    color: #9370DB;
+    text-align: center;
+  }
+  .content2{
+    font-size: 21px;
+    color:#9370DB;
+    text-align: center;
+  }
+  .content3{
+    font-size: 21px;
+    color:#9370DB;
+    text-align: center;
+  }
+
+  page{
+    background-color:#FFFFE0;
+  }

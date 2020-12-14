@@ -1,0 +1,29 @@
+<view class="container">
+<image src="/pages/images1/4.jpg" bindtap="beginToSing"></image>
+<other-widget class="other-wigdget">
+<form bindsubmit="formSubmit">
+<view class="title"> 今天你增肌了吗？</view>
+<view class="new">
+<text>Today is：</text>
+<text>{{year}}年{{month}}月{{day}}日</text>
+<text>{{weekday}}</text>
+</view>
+<view class="row">
+<text>腹部锻炼目标:</text>
+<input bindinput='getInputValue' type="text" placeholder="请输入时长" placeholder-style="color:  #1E90FF" style='box-shadow: 0 0 1px #FF8C00' value="{{searchCode}}" confirm-type="search" bindconfirm="getSearchResult" bindblur="getSearchValue" />
+</view>
+<view class="row">
+<text>手臂锻炼目标:</text>
+<input type="text" name="former" placeholder="请输入时长" placeholder-style="color:  #1E90FF" style='box-shadow: 0 0 1px #FF8C00' />
+</view>
+
+
+<view class="spc"> <text>本次运动总时长:</text> 
+<text>{{num-1}}秒/{{num2-1}}分钟</text>
+</view>
+
+<button formtype="submit" bindtap='startSetInter'>开始健身</button>
+<button formtype="reset" bindtap='endSetInter' formType="submit">中场休息/结束</button>
+</form>
+</other-widget> 
+</view>

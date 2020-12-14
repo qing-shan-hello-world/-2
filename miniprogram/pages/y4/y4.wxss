@@ -1,0 +1,17 @@
+.a{
+  font-size: 50rpx;
+   color: #CD853F;
+   padding-left: 40px;
+   padding-top: 30px;
+ 
+}
+.b{
+  font-size: larger;
+  text-align: center
+}
+.q{
+  margin-left: 20px;
+}
+page{
+  background-color:#FFFFE0;
+}

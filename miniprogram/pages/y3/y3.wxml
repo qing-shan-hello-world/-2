@@ -1,0 +1,29 @@
+<view class="container">
+
+<image src="/pages/images1/5.jpg" bindtap="beginToSing"></image>
+<other-widget class="other-wigdget">
+<form bindsubmit="formSubmit">
+<view class="title"> 今天你瘦身了吗？</view>
+<view class="new">
+<text>Today is：</text>
+<text>{{year}}年{{month}}月{{day}}日</text>
+<text>{{weekday}}</text>
+</view>
+<view class="row">
+<input placeholder="请输入瘦身部位"></input>
+</view>
+<view class="row">
+<input placeholder="请设定瘦身时长"></input>
+</view>
+
+
+
+<view class="spc"> <text>本次运动总时长:</text> 
+<text>{{num-1}}秒/{{num2-1}}分钟</text>
+</view>
+
+<button formtype="submit" bindtap='startSetInter'>瘦身开始</button>
+<button formtype="reset" bindtap='endSetInter' formType="submit">暂停/结束</button>
+</form>
+</other-widget> 
+</view>

@@ -1,0 +1,18 @@
+<!--轮播图-->
+
+<swiper class='lunbo' indicator-dots='true' autoplay='true' interval='4000'>
+
+<swiper-item> <image src='../../images/11.jpg'></image> </swiper-item>
+<swiper-item> <image src='../../images/1.jpg'></image> </swiper-item>
+<swiper-item> <image src='../../images/2.jpg'></image> </swiper-item>
+<swiper-item> <image src='../../images/3.jpg'></image> </swiper-item>
+ </swiper>
+ <view class="content1">
+  懒得动，怕长肉？(ง •̀_•́)ง
+</view>
+<view class="content2">
+  吃什么，去哪层吃？✪ω✪
+</view>
+<view class="content3">
+ 忙碌之余放松一下？- ̗̀(๑ᵔ⌔ᵔ๑)
+</view>
